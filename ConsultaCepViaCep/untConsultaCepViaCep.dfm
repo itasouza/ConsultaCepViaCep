@@ -1,6 +1,6 @@
 object frmConsultaCepViaCep: TfrmConsultaCepViaCep
-  Left = 134
-  Top = 296
+  Left = 324
+  Top = 169
   Width = 521
   Height = 361
   Caption = 'Consulta Cep [VIACEP]'
@@ -111,23 +111,6 @@ object frmConsultaCepViaCep: TfrmConsultaCepViaCep
     Left = 280
     Top = 144
     DOMVendorDesc = 'MSXML'
-  end
-  object IdHTTP: TIdHTTP
-    AllowCookies = True
-    ProxyParams.BasicAuthentication = False
-    ProxyParams.ProxyPort = 0
-    Request.ContentLength = -1
-    Request.ContentRangeEnd = -1
-    Request.ContentRangeStart = -1
-    Request.ContentRangeInstanceLength = -1
-    Request.Accept = 'text/html, */*'
-    Request.BasicAuthentication = True
-    Request.UserAgent = 'Mozilla/3.0 (compatible; Indy Library)'
-    Request.Ranges.Units = 'bytes'
-    Request.Ranges = <>
-    HTTPOptions = [hoForceEncodeParams]
-    Left = 368
-    Top = 145
   end
   object SSLIO: TIdSSLIOHandlerSocketOpenSSL
     MaxLineAction = maException

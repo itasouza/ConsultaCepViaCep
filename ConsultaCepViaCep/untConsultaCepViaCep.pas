@@ -9,7 +9,7 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, xmldom, XMLIntf, StdCtrls, msxmldom, XMLDoc, Buttons,
   IdIOHandler, IdIOHandlerSocket, IdIOHandlerStack, IdSSL, IdSSLOpenSSL,
-  IdBaseComponent, IdComponent, IdTCPConnection, IdTCPClient, IdHTTP, Mask;
+  IdBaseComponent, IdComponent, IdTCPConnection, IdTCPClient,  Mask;
 
 type
   TfrmConsultaCepViaCep = class(TForm)
@@ -17,7 +17,6 @@ type
     Memo1: TMemo;
     Label1: TLabel;
     btnOK: TBitBtn;
-    IdHTTP: TIdHTTP;
     SSLIO: TIdSSLIOHandlerSocketOpenSSL;
     editCep: TMaskEdit;
     procedure btnOKClick(Sender: TObject);
